@@ -1,1368 +1,854 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="theme-color" content="#080808">
+  <title>AUREVIA ∞ — Luxury Spaces</title>
 
-    <meta name="description"
-          content="AUREVIA — Luxury Interior Design, Architecture & Turnkey Execution.">
+  <meta name="description"
+    content="AUREVIA — Luxury Interior Architecture, Residential Interiors, Modular Kitchens, Commercial Spaces and Turnkey Solutions.">
 
-    <title>AUREVIA — Luxury Spaces</title>
+  <meta name="theme-color" content="#080808">
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Manrope:wght@300;400;500;600;700&display=swap"
-          rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400&family=Inter:wght@300;400;500;600&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-    <!-- Main CSS -->
-    <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-<!-- ================= PRELOADER ================= -->
+<!-- =====================================================
+     PRELOADER
+===================================================== -->
 
 <div id="preloader">
 
-    <div class="loader-content">
+  <div class="loader-brand">
+    <span>AUREVIA</span>
+    <small>∞</small>
+  </div>
 
-        <div class="loader-logo">
-            AUREVIA
-        </div>
+  <div class="loader-line">
+    <span></span>
+  </div>
 
-        <div class="loader-subtitle">
-            LUXURY SPACES
-        </div>
-
-        <div class="loader-line">
-            <span></span>
-        </div>
-
-    </div>
+  <div class="loader-status">
+    ENTERING THE WORLD OF AUREVIA
+  </div>
 
 </div>
 
 
-<!-- ================= NAVIGATION ================= -->
+<!-- =====================================================
+     CURSOR
+===================================================== -->
 
-<header class="navbar" id="navbar">
-
-    <div class="nav-container">
-
-        <a href="#home" class="logo">
-            <span class="logo-main">AUREVIA</span>
-            <span class="logo-sub">LUXURY SPACES</span>
-        </a>
-
-        <nav class="nav-links">
-
-            <a href="#home" class="nav-link active">
-                Home
-            </a>
-
-            <a href="#about" class="nav-link">
-                About
-            </a>
-
-            <a href="#services" class="nav-link">
-                Services
-            </a>
-
-            <a href="#projects" class="nav-link">
-                Projects
-            </a>
-
-            <a href="#process" class="nav-link">
-                Process
-            </a>
-
-            <a href="#contact" class="nav-link">
-                Contact
-            </a>
-
-        </nav>
-
-        <a href="#contact" class="nav-cta">
-            Start a Project
-            <span>↗</span>
-        </a>
-
-        <button class="menu-toggle"
-                id="menuToggle"
-                aria-label="Open Menu">
-
-            <span></span>
-            <span></span>
-            <span></span>
-
-        </button>
-
-    </div>
+<div class="cursor-dot"></div>
+<div class="cursor-ring"></div>
 
 
-    <!-- Mobile Menu -->
+<!-- =====================================================
+     NOISE
+===================================================== -->
 
-    <div class="mobile-menu" id="mobileMenu">
+<div class="noise"></div>
 
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#projects">Projects</a>
-        <a href="#process">Process</a>
-        <a href="#contact">Contact</a>
 
-        <a href="#contact" class="mobile-cta">
-            Start a Project ↗
-        </a>
+<!-- =====================================================
+     3D BACKGROUND
+===================================================== -->
 
-    </div>
+<canvas id="aureviaCanvas"></canvas>
+
+
+<!-- =====================================================
+     NAVIGATION
+===================================================== -->
+
+<header class="navbar">
+
+  <a href="#home" class="logo">
+    <span>AUREVIA</span>
+    <b>∞</b>
+  </a>
+
+  <nav>
+
+    <a href="#projects">Projects</a>
+    <a href="#services">Services</a>
+    <a href="#philosophy">Philosophy</a>
+    <a href="#process">Process</a>
+    <a href="#contact">Contact</a>
+
+  </nav>
+
+  <a href="#contact" class="nav-cta">
+    START A PROJECT
+  </a>
+
+  <button class="menu-btn" aria-label="Open menu">
+    <span></span>
+    <span></span>
+  </button>
 
 </header>
 
 
-<!-- ================= MAIN ================= -->
+<!-- =====================================================
+     MOBILE MENU
+===================================================== -->
+
+<div class="mobile-menu">
+
+  <div class="mobile-menu-inner">
+
+    <a href="#projects">Projects</a>
+    <a href="#services">Services</a>
+    <a href="#philosophy">Philosophy</a>
+    <a href="#process">Process</a>
+    <a href="#contact">Contact</a>
+
+  </div>
+
+</div>
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
 
 <main>
 
+<section id="home" class="hero">
 
-<!-- ================= HERO ================= -->
+  <div class="hero-content">
 
-<section class="hero" id="home">
+    <div class="hero-eyebrow reveal">
+      <span></span>
+      LUXURY INTERIOR ARCHITECTURE
+    </div>
 
-    <div class="hero-background"></div>
+    <h1 class="hero-title">
 
-    <div class="hero-overlay"></div>
+      <span class="line reveal">
+        ARCHITECTURE
+      </span>
 
-    <div class="hero-content">
+      <span class="line italic reveal">
+        OF TOMORROW.
+      </span>
 
-        <div class="eyebrow reveal">
-            INTERIOR ARCHITECTURE
-            <span>•</span>
-            DESIGN
-            <span>•</span>
-            EXECUTION
-        </div>
+      <span class="line reveal">
+        LIVING FOR TODAY.
+      </span>
 
-        <h1 class="hero-title reveal">
+    </h1>
 
-            THE FUTURE
-            <br>
+    <div class="hero-bottom reveal">
 
-            <span>OF LIVING.</span>
+      <p>
+        We create spaces that exist
+        beyond trends, beyond expectations,
+        beyond ordinary living.
+      </p>
 
-        </h1>
-
-        <p class="hero-description reveal">
-
-            We create sophisticated interiors where
-            architecture, technology and human emotion
-            come together.
-
-        </p>
-
-        <div class="hero-buttons reveal">
-
-            <a href="#projects" class="btn btn-primary">
-                Explore Projects
-                <span>↗</span>
-            </a>
-
-            <a href="#contact" class="btn btn-outline">
-                Start Your Project
-            </a>
-
-        </div>
+      <a href="#projects" class="explore-btn">
+        <span>EXPLORE</span>
+        <i>↓</i>
+      </a>
 
     </div>
 
-    <div class="hero-bottom">
+  </div>
 
-        <div class="scroll-indicator">
+  <div class="hero-orbit">
 
-            <span class="scroll-line"></span>
+    <div class="orbit orbit-1"></div>
+    <div class="orbit orbit-2"></div>
 
-            <span>
-                SCROLL TO EXPLORE
-            </span>
+    <span class="orbit-dot"></span>
 
-        </div>
+  </div>
 
-        <div class="hero-year">
-            EST. 2026
-        </div>
-
-    </div>
+  <div class="scroll-indicator">
+    SCROLL TO ENTER
+    <span></span>
+  </div>
 
 </section>
 
 
-<!-- ================= ABOUT ================= -->
+<!-- =====================================================
+     MANIFESTO
+===================================================== -->
 
-<section class="about section" id="about">
+<section id="philosophy" class="manifesto section">
 
-    <div class="container">
+  <div class="section-label">
+    01 / PHILOSOPHY
+  </div>
 
-        <div class="section-label reveal">
-            01 — PHILOSOPHY
-        </div>
+  <div class="manifesto-content">
 
-        <div class="about-grid">
+    <p class="small-copy">
+      AUREVIA is not about decoration.
+      It is about creating an identity
+      through space.
+    </p>
 
-            <div class="about-heading reveal">
+    <h2>
+      WE DON'T
+      <em>DECORATE</em>
+      ROOMS.
+    </h2>
 
-                <h2>
-                    Spaces are not
-                    <em>decorated.</em>
-                    They are experienced.
-                </h2>
+    <h2 class="indent">
+      WE
+      <em>ARCHITECT</em>
+      EXPERIENCES.
+    </h2>
 
-            </div>
-
-            <div class="about-text reveal">
-
-                <p>
-                    AUREVIA is a modern interior architecture
-                    studio focused on creating refined,
-                    functional and timeless spaces.
-                </p>
-
-                <p>
-                    From the first sketch to the final
-                    execution, every detail is designed
-                    with intention.
-                </p>
-
-                <a href="#contact" class="text-link">
-                    Discover AUREVIA
-                    <span>↗</span>
-                </a>
-
-            </div>
-
-        </div>
-
-    </div>
+  </div>
 
 </section>
 
 
-<!-- ================= SERVICES ================= -->
+<!-- =====================================================
+     PROJECTS
+===================================================== -->
 
-<section class="services section" id="services">
+<section id="projects" class="projects section">
 
-    <div class="container">
+  <div class="section-head">
 
-        <div class="section-header reveal">
-
-            <div class="section-label">
-                02 — EXPERTISE
-            </div>
-
-            <h2>
-                Designed for
-                <span>living.</span>
-            </h2>
-
-        </div>
-
-        <div class="services-grid">
-
-            <article class="service-card reveal">
-
-                <div class="service-number">01</div>
-
-                <div class="service-icon">⌂</div>
-
-                <h3>
-                    Complete Home
-                </h3>
-
-                <p>
-                    Complete interior architecture
-                    for sophisticated modern homes.
-                </p>
-
-                <span class="service-arrow">↗</span>
-
-            </article>
-
-
-            <article class="service-card reveal">
-
-                <div class="service-number">02</div>
-
-                <div class="service-icon">◇</div>
-
-                <h3>
-                    Luxury Kitchen
-                </h3>
-
-                <p>
-                    Elegant kitchens combining
-                    functionality with premium design.
-                </p>
-
-                <span class="service-arrow">↗</span>
-
-            </article>
-
-
-            <article class="service-card reveal">
-
-                <div class="service-number">03</div>
-
-                <div class="service-icon">◯</div>
-
-                <h3>
-                    Living Spaces
-                </h3>
-
-                <p>
-                    Living rooms designed around
-                    comfort, personality and atmosphere.
-                </p>
-
-                <span class="service-arrow">↗</span>
-
-            </article>
-
-
-            <article class="service-card reveal">
-
-                <div class="service-number">04</div>
-
-                <div class="service-icon">△</div>
-
-                <h3>
-                    Private Retreats
-                </h3>
-
-                <p>
-                    Bedrooms and private spaces
-                    designed for calm and relaxation.
-                </p>
-
-                <span class="service-arrow">↗</span>
-
-            </article>
-
-
-            <article class="service-card reveal">
-
-                <div class="service-number">05</div>
-
-                <div class="service-icon">□</div>
-
-                <h3>
-                    Workspaces
-                </h3>
-
-                <p>
-                    Intelligent office interiors
-                    built for productivity and identity.
-                </p>
-
-                <span class="service-arrow">↗</span>
-
-            </article>
-
-
-            <article class="service-card reveal">
-
-                <div class="service-number">06</div>
-
-                <div class="service-icon">◈</div>
-
-                <h3>
-                    3D Visualization
-                </h3>
-
-                <p>
-                    Photorealistic 3D concepts
-                    before construction begins.
-                </p>
-
-                <span class="service-arrow">↗</span>
-
-            </article>
-
-
-            <article class="service-card reveal">
-
-                <div class="service-number">07</div>
-
-                <div class="service-icon">✦</div>
-
-                <h3>
-                    Lighting & Ceiling
-                </h3>
-
-                <p>
-                    Layered lighting and ceiling
-                    systems that transform atmosphere.
-                </p>
-
-                <span class="service-arrow">↗</span>
-
-            </article>
-
-
-            <article class="service-card reveal">
-
-                <div class="service-number">08</div>
-
-                <div class="service-icon">+</div>
-
-                <h3>
-                    Turnkey Execution
-                </h3>
-
-                <p>
-                    One trusted partner from concept
-                    through final handover.
-                </p>
-
-                <span class="service-arrow">↗</span>
-
-            </article>
-
-        </div>
-
+    <div class="section-label">
+      02 / SIGNATURE PROJECTS
     </div>
 
-</section>
+    <p>
+      Selected spaces.
+      Designed without compromise.
+    </p>
 
+  </div>
 
-<!-- ================= PROJECTS ================= -->
 
-<section class="projects section" id="projects">
+  <div class="project-grid">
 
-    <div class="container">
+    <!-- PROJECT 01 -->
 
-        <div class="section-header projects-header reveal">
+    <article class="project-card project-large">
 
-            <div>
-
-                <div class="section-label">
-                    03 — SELECTED WORK
-                </div>
-
-                <h2>
-                    Spaces with
-                    <span>character.</span>
-                </h2>
-
-            </div>
-
-            <div class="project-filters">
-
-                <button class="filter active"
-                        data-filter="all">
-                    All
-                </button>
-
-                <button class="filter"
-                        data-filter="living">
-                    Living
-                </button>
-
-                <button class="filter"
-                        data-filter="kitchen">
-                    Kitchen
-                </button>
-
-                <button class="filter"
-                        data-filter="bedroom">
-                    Bedroom
-                </button>
-
-                <button class="filter"
-                        data-filter="office">
-                    Office
-                </button>
-
-            </div>
-
-        </div>
-
-
-        <div class="projects-grid">
-
-
-            <article class="project-card large reveal"
-                     data-category="living">
-
-                <div class="project-image">
-
-                    <img
-                        src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1600&q=85"
-                        alt="Luxury living room interior"
-                        loading="lazy">
-
-                </div>
-
-                <div class="project-info">
-
-                    <div>
-                        <span>RESIDENTIAL</span>
-
-                        <h3>
-                            The House of Light
-                        </h3>
-                    </div>
-
-                    <span class="project-arrow">↗</span>
-
-                </div>
-
-            </article>
-
-
-            <article class="project-card reveal"
-                     data-category="kitchen">
-
-                <div class="project-image">
-
-                    <img
-                        src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1200&q=85"
-                        alt="Luxury modern kitchen"
-                        loading="lazy">
-
-                </div>
-
-                <div class="project-info">
-
-                    <div>
-                        <span>KITCHEN</span>
-
-                        <h3>
-                            Noir Kitchen
-                        </h3>
-                    </div>
-
-                    <span class="project-arrow">↗</span>
-
-                </div>
-
-            </article>
-
-
-            <article class="project-card reveal"
-                     data-category="bedroom">
-
-                <div class="project-image">
-
-                    <img
-                        src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=85"
-                        alt="Modern luxury bedroom"
-                        loading="lazy">
-
-                </div>
-
-                <div class="project-info">
-
-                    <div>
-                        <span>BEDROOM</span>
-
-                        <h3>
-                            Silent Retreat
-                        </h3>
-                    </div>
-
-                    <span class="project-arrow">↗</span>
-
-                </div>
-
-            </article>
-
-
-            <article class="project-card reveal"
-                     data-category="office">
-
-                <div class="project-image">
-
-                    <img
-                        src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=85"
-                        alt="Modern office interior"
-                        loading="lazy">
-
-                </div>
-
-                <div class="project-info">
-
-                    <div>
-                        <span>COMMERCIAL</span>
-
-                        <h3>
-                            Future Office
-                        </h3>
-                    </div>
-
-                    <span class="project-arrow">↗</span>
-
-                </div>
-
-            </article>
-
-
-            <article class="project-card reveal"
-                     data-category="living">
-
-                <div class="project-image">
-
-                    <img
-                        src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=85"
-                        alt="Contemporary interior"
-                        loading="lazy">
-
-                </div>
-
-                <div class="project-info">
-
-                    <div>
-                        <span>RESIDENTIAL</span>
-
-                        <h3>
-                            Urban Elegance
-                        </h3>
-                    </div>
-
-                    <span class="project-arrow">↗</span>
-
-                </div>
-
-            </article>
-
-
-            <article class="project-card reveal"
-                     data-category="kitchen">
-
-                <div class="project-image">
-
-                    <img
-                        src="https://images.unsplash.com/photo-1556912173-46c336c7fd55?auto=format&fit=crop&w=1200&q=85"
-                        alt="Contemporary kitchen"
-                        loading="lazy">
-
-                </div>
-
-                <div class="project-info">
-
-                    <div>
-                        <span>KITCHEN</span>
-
-                        <h3>
-                            Minimal Atelier
-                        </h3>
-                    </div>
-
-                    <span class="project-arrow">↗</span>
-
-                </div>
-
-            </article>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= FEATURED ================= -->
-
-<section class="featured section">
-
-    <div class="featured-image">
+      <div class="project-image">
 
         <img
-            src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=2000&q=90"
-            alt="Luxury interior architecture"
-            loading="lazy">
+          src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1800&q=90"
+          alt="Luxury interior">
 
-    </div>
+      </div>
 
-    <div class="featured-overlay"></div>
+      <div class="project-overlay">
 
-    <div class="container featured-content reveal">
+        <span>RESIDENTIAL / 01</span>
 
-        <div class="section-label">
-            FEATURED PROJECT
-        </div>
-
-        <h2>
-            The House
-            <br>
-            <em>of Light.</em>
-        </h2>
+        <h3>
+          HOUSE
+          <em>OF LIGHT</em>
+        </h3>
 
         <p>
-            A study in natural light, warm textures
-            and architectural simplicity.
+          A residence sculpted around
+          natural light and silence.
         </p>
 
-        <a href="#contact" class="btn btn-light">
-            Discuss Your Project
-            <span>↗</span>
-        </a>
+      </div>
 
-    </div>
-
-</section>
+    </article>
 
 
-<!-- ================= PROCESS ================= -->
+    <!-- PROJECT 02 -->
 
-<section class="process section" id="process">
+    <article class="project-card">
 
-    <div class="container">
+      <div class="project-image">
 
-        <div class="section-header reveal">
+        <img
+          src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1400&q=90"
+          alt="Modern luxury residence">
 
-            <div class="section-label">
-                04 — OUR PROCESS
-            </div>
+      </div>
 
-            <h2>
-                From vision
-                <span>to reality.</span>
-            </h2>
+      <div class="project-overlay">
 
-        </div>
+        <span>RESIDENTIAL / 02</span>
 
+        <h3>
+          MONOLITH
+          <em>RESIDENCE</em>
+        </h3>
 
-        <div class="process-grid">
+        <p>
+          Minimal architecture.
+          Maximum presence.
+        </p>
 
-            <div class="process-item reveal">
+      </div>
 
-                <div class="process-number">01</div>
-
-                <h3>Discover</h3>
-
-                <p>
-                    We understand your lifestyle,
-                    requirements and aspirations.
-                </p>
-
-            </div>
+    </article>
 
 
-            <div class="process-item reveal">
+    <!-- PROJECT 03 -->
 
-                <div class="process-number">02</div>
+    <article class="project-card">
 
-                <h3>Plan</h3>
+      <div class="project-image">
 
-                <p>
-                    Space planning, materials,
-                    budget and project strategy.
-                </p>
+        <img
+          src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1400&q=90"
+          alt="Luxury living room">
 
-            </div>
+      </div>
 
+      <div class="project-overlay">
 
-            <div class="process-item reveal">
+        <span>INTERIORS / 03</span>
 
-                <div class="process-number">03</div>
+        <h3>
+          SILENT
+          <em>LUXURY</em>
+        </h3>
 
-                <h3>Visualize</h3>
+        <p>
+          A study in material,
+          proportion and atmosphere.
+        </p>
 
-                <p>
-                    Experience your future space
-                    through detailed 3D visualization.
-                </p>
+      </div>
 
-            </div>
-
-
-            <div class="process-item reveal">
-
-                <div class="process-number">04</div>
-
-                <h3>Build</h3>
-
-                <p>
-                    Our team transforms the approved
-                    design into a physical reality.
-                </p>
-
-            </div>
+    </article>
 
 
-            <div class="process-item reveal">
+    <!-- PROJECT 04 -->
 
-                <div class="process-number">05</div>
+    <article class="project-card project-wide">
 
-                <h3>Experience</h3>
+      <div class="project-image">
 
-                <p>
-                    Final detailing, quality checks
-                    and project handover.
-                </p>
+        <img
+          src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1800&q=90"
+          alt="Premium interior architecture">
 
-            </div>
+      </div>
 
-        </div>
+      <div class="project-overlay">
 
-    </div>
+        <span>ARCHITECTURE / 04</span>
+
+        <h3>
+          THE BLACK
+          <em>GALLERY</em>
+        </h3>
+
+        <p>
+          Dark geometry meets
+          warm human living.
+        </p>
+
+      </div>
+
+    </article>
+
+  </div>
 
 </section>
 
 
-<!-- ================= STATS ================= -->
+<!-- =====================================================
+     CINEMATIC STATEMENT
+===================================================== -->
 
-<section class="stats section">
+<section class="cinematic">
 
-    <div class="container">
+  <div class="cinematic-bg"></div>
 
-        <div class="stats-grid">
+  <div class="cinematic-content">
 
-            <div class="stat reveal">
+    <span>THE AUREVIA STANDARD</span>
 
-                <strong>
-                    100<span>%</span>
-                </strong>
+    <h2>
+      ONE SPACE.
+      <br>
+      ONE VISION.
+      <br>
+      <em>ONE SIGNATURE.</em>
+    </h2>
 
-                <p>
-                    DESIGN FOCUS
-                </p>
-
-            </div>
-
-
-            <div class="stat reveal">
-
-                <strong>
-                    360<span>°</span>
-                </strong>
-
-                <p>
-                    COMPLETE VISION
-                </p>
-
-            </div>
-
-
-            <div class="stat reveal">
-
-                <strong>
-                    3D
-                </strong>
-
-                <p>
-                    VISUALIZATION
-                </p>
-
-            </div>
-
-
-            <div class="stat reveal">
-
-                <strong>
-                    1
-                </strong>
-
-                <p>
-                    TURNKEY PARTNER
-                </p>
-
-            </div>
-
-        </div>
-
-    </div>
+  </div>
 
 </section>
 
 
-<!-- ================= CONTACT ================= -->
+<!-- =====================================================
+     SERVICES
+===================================================== -->
 
-<section class="contact section" id="contact">
+<section id="services" class="services section">
 
-    <div class="container">
+  <div class="section-label">
+    03 / CAPABILITIES
+  </div>
 
-        <div class="contact-grid">
+  <div class="services-intro">
 
+    <h2>
+      EVERYTHING
+      <em>YOUR SPACE</em>
+      NEEDS.
+    </h2>
 
-            <div class="contact-intro reveal">
+    <p>
+      From the first idea to the final detail,
+      AUREVIA delivers complete interior
+      architecture and turnkey solutions.
+    </p>
 
-                <div class="section-label">
-                    05 — START A PROJECT
-                </div>
+  </div>
 
-                <h2>
-                    Let's create
-                    <span>something extraordinary.</span>
-                </h2>
 
-                <p>
-                    Tell us about your space and our team
-                    will get back to you.
-                </p>
+  <div class="service-list">
 
+    <div class="service-item">
 
-                <!-- NEW CONTACT DETAILS -->
+      <span>01</span>
 
-                <div class="contact-details">
+      <h3>
+        Residential
+        Interior Architecture
+      </h3>
 
-                    <a href="tel:+917585093412">
-                        +91 75850 93412
-                    </a>
-
-                    <a href="mailto:monirulislam9932714@gmali.com">
-                        monirulislam9932714@gmali.com
-                    </a>
-
-                    <span>
-                        Berhampore, West Bengal, India
-                    </span>
-
-                </div>
-
-            </div>
-
-
-            <!-- PROJECT FORM -->
-
-            <form class="contact-form"
-                  id="contactForm">
-
-                <div class="form-group">
-
-                    <label for="name">
-                        Your Name
-                    </label>
-
-                    <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        placeholder="Enter your name"
-                        required>
-
-                </div>
-
-
-                <div class="form-group">
-
-                    <label for="phone">
-                        Phone Number
-                    </label>
-
-                    <input
-                        type="tel"
-                        id="phone"
-                        name="phone"
-                        placeholder="+91"
-                        required>
-
-                </div>
-
-
-                <div class="form-row">
-
-                    <div class="form-group">
-
-                        <label for="property">
-                            Property Type
-                        </label>
-
-                        <select
-                            id="property"
-                            name="property">
-
-                            <option value="">
-                                Select
-                            </option>
-
-                            <option>
-                                Apartment
-                            </option>
-
-                            <option>
-                                Villa
-                            </option>
-
-                            <option>
-                                House
-                            </option>
-
-                            <option>
-                                Office
-                            </option>
-
-                            <option>
-                                Commercial
-                            </option>
-
-                        </select>
-
-                    </div>
-
-
-                    <div class="form-group">
-
-                        <label for="area">
-                            Approx. Area
-                        </label>
-
-                        <input
-                            type="text"
-                            id="area"
-                            name="area"
-                            placeholder="sq.ft">
-
-                    </div>
-
-                </div>
-
-
-                <div class="form-group">
-
-                    <label for="service">
-                        Service Required
-                    </label>
-
-                    <select
-                        id="service"
-                        name="service">
-
-                        <option value="">
-                            Select a service
-                        </option>
-
-                        <option>
-                            Complete Home Interior
-                        </option>
-
-                        <option>
-                            Modular Kitchen
-                        </option>
-
-                        <option>
-                            Living Room
-                        </option>
-
-                        <option>
-                            Bedroom
-                        </option>
-
-                        <option>
-                            Office Interior
-                        </option>
-
-                        <option>
-                            3D Design
-                        </option>
-
-                        <option>
-                            Turnkey Execution
-                        </option>
-
-                    </select>
-
-                </div>
-
-
-                <div class="form-group">
-
-                    <label for="message">
-                        Tell us about your project
-                    </label>
-
-                    <textarea
-                        id="message"
-                        name="message"
-                        rows="5"
-                        placeholder="Describe your project..."></textarea>
-
-                </div>
-
-
-                <button
-                    type="submit"
-                    class="btn btn-primary form-submit">
-
-                    Send Project Enquiry
-                    <span>↗</span>
-
-                </button>
-
-
-                <div
-                    class="form-message"
-                    id="formMessage">
-                </div>
-
-            </form>
-
-        </div>
+      <p>
+        Complete luxury home
+        design and execution.
+      </p>
 
     </div>
+
+
+    <div class="service-item">
+
+      <span>02</span>
+
+      <h3>
+        Modular
+        Kitchen Design
+      </h3>
+
+      <p>
+        Precision-designed kitchens
+        built around your lifestyle.
+      </p>
+
+    </div>
+
+
+    <div class="service-item">
+
+      <span>03</span>
+
+      <h3>
+        Living &
+        Bedroom Design
+      </h3>
+
+      <p>
+        Personal environments
+        designed for comfort and character.
+      </p>
+
+    </div>
+
+
+    <div class="service-item">
+
+      <span>04</span>
+
+      <h3>
+        Office &
+        Commercial Interiors
+      </h3>
+
+      <p>
+        Professional spaces
+        engineered for identity and performance.
+      </p>
+
+    </div>
+
+
+    <div class="service-item">
+
+      <span>05</span>
+
+      <h3>
+        3D Visualization &
+        Space Planning
+      </h3>
+
+      <p>
+        Experience your future space
+        before execution begins.
+      </p>
+
+    </div>
+
+
+    <div class="service-item">
+
+      <span>06</span>
+
+      <h3>
+        Turnkey
+        Interior Solutions
+      </h3>
+
+      <p>
+        One team.
+        One vision.
+        Complete execution.
+      </p>
+
+    </div>
+
+  </div>
 
 </section>
 
 
-<!-- ================= FAQ ================= -->
+<!-- =====================================================
+     PROCESS
+===================================================== -->
 
-<section class="faq section">
+<section id="process" class="process section">
 
-    <div class="container">
+  <div class="section-label">
+    04 / THE PROCESS
+  </div>
 
-        <div class="section-header reveal">
+  <div class="process-title">
 
-            <div class="section-label">
-                FAQ
-            </div>
+    <h2>
+      FROM
+      <em>VISION</em>
+      TO REALITY.
+    </h2>
 
-            <h2>
-                Questions,
-                <span>answered.</span>
-            </h2>
-
-        </div>
-
-
-        <div class="faq-list">
+  </div>
 
 
-            <div class="faq-item reveal">
+  <div class="process-line">
 
-                <button class="faq-question">
+    <div class="process-step">
 
-                    <span>
-                        Do you provide complete interior execution?
-                    </span>
+      <span>01</span>
 
-                    <span class="faq-plus">
-                        +
-                    </span>
+      <h3>DISCOVER</h3>
 
-                </button>
-
-                <div class="faq-answer">
-
-                    <p>
-                        Yes. We can manage the complete journey
-                        from design and visualization to execution
-                        and final handover.
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <div class="faq-item reveal">
-
-                <button class="faq-question">
-
-                    <span>
-                        Do you provide 3D designs?
-                    </span>
-
-                    <span class="faq-plus">
-                        +
-                    </span>
-
-                </button>
-
-                <div class="faq-answer">
-
-                    <p>
-                        Yes. Detailed 3D visualization can be
-                        prepared so you can understand the proposed
-                        space before execution.
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <div class="faq-item reveal">
-
-                <button class="faq-question">
-
-                    <span>
-                        Can you work with a specific budget?
-                    </span>
-
-                    <span class="faq-plus">
-                        +
-                    </span>
-
-                </button>
-
-                <div class="faq-answer">
-
-                    <p>
-                        Yes. We discuss your requirements and
-                        budget at the beginning and develop the
-                        design accordingly.
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <div class="faq-item reveal">
-
-                <button class="faq-question">
-
-                    <span>
-                        How do I start my project?
-                    </span>
-
-                    <span class="faq-plus">
-                        +
-                    </span>
-
-                </button>
-
-                <div class="faq-answer">
-
-                    <p>
-                        Simply submit the project enquiry form
-                        or contact us directly by phone or email.
-                    </p>
-
-                </div>
-
-            </div>
-
-        </div>
+      <p>
+        Understand your lifestyle,
+        aspirations and space.
+      </p>
 
     </div>
+
+
+    <div class="process-step">
+
+      <span>02</span>
+
+      <h3>DEFINE</h3>
+
+      <p>
+        Establish concept,
+        material and direction.
+      </p>
+
+    </div>
+
+
+    <div class="process-step">
+
+      <span>03</span>
+
+      <h3>DESIGN</h3>
+
+      <p>
+        Develop plans,
+        details and 3D visualization.
+      </p>
+
+    </div>
+
+
+    <div class="process-step">
+
+      <span>04</span>
+
+      <h3>BUILD</h3>
+
+      <p>
+        Precision execution
+        with controlled quality.
+      </p>
+
+    </div>
+
+
+    <div class="process-step">
+
+      <span>05</span>
+
+      <h3>REVEAL</h3>
+
+      <p>
+        Your finished space,
+        brought to life.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     NUMBERS
+===================================================== -->
+
+<section class="numbers">
+
+  <div class="number-card">
+
+    <strong data-counter="50">0</strong>
+
+    <span>
+      SPACES
+      <br>
+      IMAGINED
+    </span>
+
+  </div>
+
+
+  <div class="number-card">
+
+    <strong data-counter="100">0</strong>
+
+    <span>
+      ATTENTION
+      <br>
+      TO DETAIL
+    </span>
+
+  </div>
+
+
+  <div class="number-card">
+
+    <strong data-counter="24">0</strong>
+
+    <span>
+      /7
+      <br>
+      COMMITMENT
+    </span>
+
+  </div>
+
+
+  <div class="number-card">
+
+    <strong>∞</strong>
+
+    <span>
+      POSSIBILITIES
+      <br>
+      UNLIMITED
+    </span>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     CONTACT
+===================================================== -->
+
+<section id="contact" class="contact section">
+
+  <div class="section-label">
+    05 / PRIVATE CONSULTATION
+  </div>
+
+  <div class="contact-content">
+
+    <h2>
+      YOUR SPACE
+      <br>
+      DESERVES A
+      <br>
+      <em>SIGNATURE.</em>
+    </h2>
+
+    <p>
+      Tell us about your project.
+      Let's create something extraordinary.
+    </p>
+
+
+    <form id="contactForm">
+
+      <div class="input-row">
+
+        <input
+          type="text"
+          id="name"
+          placeholder="YOUR NAME"
+          required>
+
+        <input
+          type="tel"
+          id="phone"
+          placeholder="PHONE NUMBER"
+          required>
+
+      </div>
+
+
+      <input
+        type="text"
+        id="project"
+        placeholder="PROJECT TYPE">
+
+
+      <textarea
+        id="message"
+        rows="5"
+        placeholder="TELL US ABOUT YOUR SPACE"></textarea>
+
+
+      <button type="submit" class="submit-btn">
+
+        <span>SEND PROJECT ENQUIRY</span>
+
+        <b>↗</b>
+
+      </button>
+
+    </form>
+
+
+    <div class="contact-direct">
+
+      <a href="tel:+917585093412">
+        +91 75850 93412
+      </a>
+
+      <a href="mailto:monirulislam9932714@gmali.com">
+        monirulislam9932714@gmali.com
+      </a>
+
+    </div>
+
+  </div>
 
 </section>
 
 </main>
 
 
-<!-- ================= FOOTER ================= -->
+<!-- =====================================================
+     FOOTER
+===================================================== -->
 
-<footer class="footer">
+<footer>
 
-    <div class="container">
+  <div class="footer-top">
 
-        <div class="footer-top">
+    <div class="footer-brand">
 
+      <h2>AUREVIA <span>∞</span></h2>
 
-            <div class="footer-brand">
-
-                <a href="#home" class="logo">
-
-                    <span class="logo-main">
-                        AUREVIA
-                    </span>
-
-                    <span class="logo-sub">
-                        LUXURY SPACES
-                    </span>
-
-                </a>
-
-                <p>
-                    Architecture of Tomorrow.
-                    Living for Today.
-                </p>
-
-            </div>
-
-
-            <div class="footer-links">
-
-                <div>
-
-                    <h4>
-                        EXPLORE
-                    </h4>
-
-                    <a href="#about">
-                        About
-                    </a>
-
-                    <a href="#services">
-                        Services
-                    </a>
-
-                    <a href="#projects">
-                        Projects
-                    </a>
-
-                </div>
-
-
-                <div>
-
-                    <h4>
-                        CONNECT
-                    </h4>
-
-                    <a href="tel:+917585093412">
-                        Call Us
-                    </a>
-
-                    <a href="mailto:monirulislam9932714@gmali.com">
-                        Email
-                    </a>
-
-                    <a href="#contact">
-                        Start Project
-                    </a>
-
-                </div>
-
-            </div>
-
-        </div>
-
-
-        <div class="footer-bottom">
-
-            <span>
-                © <span id="year"></span> AUREVIA.
-                All Rights Reserved.
-            </span>
-
-            <span>
-                INTERIOR ARCHITECTURE • DESIGN • EXECUTION
-            </span>
-
-        </div>
+      <p>
+        Architecture of Tomorrow.
+        Living for Today.
+      </p>
 
     </div>
+
+
+    <div class="footer-links">
+
+      <a href="#home">Home</a>
+      <a href="#projects">Projects</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+
+    </div>
+
+  </div>
+
+
+  <div class="footer-bottom">
+
+    <span>
+      © <span id="year"></span> AUREVIA
+    </span>
+
+    <span>
+      LUXURY SPACES / INDIA
+    </span>
+
+    <span>
+      UNLIMITED EDITION
+    </span>
+
+  </div>
 
 </footer>
 
 
-<!-- ================= WHATSAPP ================= -->
+<!-- =====================================================
+     WHATSAPP
+===================================================== -->
 
 <a
-    href="https://wa.me/917585093412?text=Hello%20AUREVIA%2C%20I%20would%20like%20to%20discuss%20an%20interior%20project."
-    class="whatsapp-button"
-    target="_blank"
-    rel="noopener"
-    aria-label="Contact AUREVIA on WhatsApp">
+  class="whatsapp"
+  href="https://wa.me/917585093412"
+  target="_blank"
+  rel="noopener"
+  aria-label="Chat on WhatsApp">
 
-    <span class="whatsapp-icon">
-        ☎
-    </span>
-
-    <span>
-        WhatsApp
-    </span>
+  <span>WHATSAPP</span>
+  <b>↗</b>
 
 </a>
 
 
-<!-- ================= JAVASCRIPT ================= -->
+<!-- =====================================================
+     LIBRARIES
+===================================================== -->
+
+<script src="https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
 
 <script src="js/main.js"></script>
 
